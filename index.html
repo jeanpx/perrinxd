@@ -9,14 +9,13 @@
 	</head>
 	<body>
 		<script type="importmap">
-			{
-			  "imports": {
-				"three": "https://unpkg.com/three/build/three.module.js",
-				"three/addons/": "https://unpkg.com/three/examples/jsm/",
-					import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
-			  }
-			}
-		  </script>
+{
+  "imports": {
+    "three": "./path/to/three/build/three.module.js",
+    "three/examples/jsm/": "./path/to/three/examples/jsm/"
+  }
+}
+</script>
 		<script type="module" src="src/main.js"></script>
 		
 		
